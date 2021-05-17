@@ -1,0 +1,10 @@
+<p>employ-drop-down works!</p>
+<select [(ngModel)]="ename">
+<option *ngFor="let e of employs" value="{{e.name}}">
+    {{e.name}}
+</option>
+</select>
+<p>
+    Name is: <b>{{ename}}</b>
+</p>
+
