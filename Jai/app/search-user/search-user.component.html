@@ -1,0 +1,5 @@
+<p>search-user works!</p>
+<input type ="number" name="id" [(ngModel)]="id" /><br/><br/>
+<input type="button" value="search" (click)="search()">
+<p>{{ (user | async)?.name}}</p>
+
